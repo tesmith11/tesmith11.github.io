@@ -1,65 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tiff Smith, Boss</title>
-    <img src="stay-humble-hustle-hard.png"">
+  <title>Tiltas</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="tiltas.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="">
-    <h1><strong><em>Tiff Smith</em></strong></h1>
-    <p>
-      <img src="Headshots.jpg" style="width:128px;height:128px" img align="center">
-    </p>
-    <h2>Boss</h2>
-      <img src="C:\code\profile\like a boss.gif"">
-    <h3>HOMETOWN: Miami, Florida by way of Queens, NY</h3>
-    <p><img src="Miami.gif""></p>
-    <div>
-      <h4>Get This Work!!!!</h4>
-      <ul>
-        <!-- This is unordered lists -->
-        <li><a href="mailto:tiffany.e.smith23@gmail.com">Email</a></li>
-        <li><a href="http://twitter.com/tiffluential">Here is where I tweet</a></li>
-        <li><a href="http://facebook.com/tiffluential">Facebook page</a></li>
-        <li><a href="http://tiffanysmith.me"><em>My Actual Website</em></a></li>
-        <li><a href="http://medium.com/@tiffluential"><em>My Medium Page</em></a></li> I have like 70 followers...I'm almost sort of important.
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="www.tiltas.co">Tiltas</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#WhoWeAre">Who We Are<span class="sr-only">(current)</span></a></li>
+        <li><a href="#Mission">Mission</li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Sign Up <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://goo.gl/forms/41SR12gc2olqjkzJ2">Candidates/Returning Citizens</a></li>
+            <li><a href="week2-master/Employers.html">Employers</a></li>
+            <li><a href="#">Supporters</a></li>
+            <!-- <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li> -->
+          </ul>
+        </li>
       </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Find A Job Opportunity</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto:tiffany.smith@tiltas.co">Contact Us</a></li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li> -->
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  <!-- /.container-fluid -->
+</nav>
+  <div class="container">
+    <div class="jumbotron">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img_0360.jpg" alt="Chania">
     </div>
-    <div>
-      <h4><strong>HERstory</strong></h4>
-      <p>
-    Tiff was born in Hotlanta, Georgia, where she realized that she needed the mean streets of NYC to teach her something. So her mom said, OK, let's go to NYC. From there she went to Miami.
-      </p>
+
+    <div class="item">
+      <img src="img_0361.jpg" alt="Chania">
     </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Founder, Tiltas</h5>
-        <p><img src="Cover Photo Facebook.png""></p>
-        <p>I'm a cool, change agent, type person.</p>
-        <button type="button"><a href="http://www.forbes.com/30-under-30-2016/social-entrepreneurs/#33e086d37600",'_blank'>Learn more about change agents.</a></button>
+
+    <div class="item">
+      <img src="img_0362.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img_0363.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      <h1>Redefining Reentry for Felons</h1>
+        <!-- ask how to bury addiitional words in here for the purposes of SEO -->
+      <h2>Connecting returning citizens to opportunities in skilled labor</h2>
+      <h3><a href="#" class="btn btn-primary">Learn More</a></h3>
+    </div>
+      <span class="glyphicon glyphicon-road" aria-hidden="true"></span>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 id="WhoWeAre">Who We Are</h2>
+        <p>A dedicated team from the Kellogg School of Management. We believe that the formerly incarcerated deserve a second chance at employment.</p>
       </div>
-      <div>
-        <h5>Struggling to get this MBA, but I'll be done soon. #credentials </h5><em>But not before I conquer the world...</em>
-        <p>I started at Kellogg in 2015. Used to build stuff for a living. #workworkwork</p>
+        <div class="col-sm-6">
+          <h2 id="Mission">Mission</h2>
+          <p>We seek to match the formerly incarcerated with jobs in skilled labor all via web based platform.</p>
+        </div>
+        <div class="col-sm-6">
+        <h2 id="What We Do">What We Do</h4>
+        <p>Connect returning citizens with job opportunities in middle skill labor.</p>
+      </div>
+      </div>
       </div>
     </div>
-    <div>
-      <h4>Skills</h4>
-      <ul>
-        <li>Talking</li>
-        <li>Running stuff</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Getting all these major keys to success</li>
-      </ul>
+  </div>
+    </ol>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="tiltas-blk.png" alt="...">
+                    <div class="caption">
+                        <h3>The Team</h3>
+                          <p>Founder: Tiffany Smith</p>
+                            <p><a href="http://www.tiffanysmith.me/" class="btn btn-primary" role="button">More About Tiffany</a></p>
+                     </div>
+            </div>
+        </div>
     </div>
   </div>
 </body>
 </html>
+
