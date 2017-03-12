@@ -28,7 +28,7 @@ var SortBar = require('./components/SortBar')
 var Rebase = require('re-base')
 var base = Rebase.createClass({
   apiKey: "...",   // replace with your Firebase application's API key
-  databaseURL: "...", // replace with your Firebase application's database URL
+  databaseURL: "https://build-7de26.firebaseapp.com/", // replace with your Firebase application's database URL
 })
 
 var App = React.createClass({
