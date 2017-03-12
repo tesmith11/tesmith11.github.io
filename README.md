@@ -1,4 +1,4 @@
-# Poker Starter Project for KIEI-924
+# Buyflix Starter Project for KIEI-924
 
 ## Getting Started
 

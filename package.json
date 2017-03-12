@@ -1,9 +1,11 @@
 {
-  "name": "poker-react",
+  "name": "buyflix-react",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.7.0"
+    "re-base": "^2.2.0",
+    "react-gmaps": "^1.5.0",
+    "react-scripts": "0.6.1"
   },
   "dependencies": {
     "react": "^15.3.2",
